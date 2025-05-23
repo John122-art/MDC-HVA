@@ -10,6 +10,20 @@ conda install pytorch==1.12.0 torchvision==0.13.0 torchaudio==0.12.0
 cudatoolkit=11.6 -c pytorch -c conda-forge
 pip install argoverse1-api,av2
 
+The dataset structure
+data_argo
+├── features
+│   ├── train
+│   │   ├── 100001.pkl
+│   │   ├── 100144.pkl
+│   │   ├── 100189.pkl
+...
+│   └── val
+│       ├── 10018.pkl
+│       ├── 10080.pkl
+│       ├── 10164.pkl
+...
+
 Qualitives Results
 
 ![Fig7](https://github.com/user-attachments/assets/49cb7c59-4dab-4bb8-9fe6-a9247f4b24a9)
